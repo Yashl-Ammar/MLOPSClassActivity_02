@@ -1,5 +1,6 @@
 # Import the StudentsInMLOps class
-from students_in_mlops import StudentsInMLOps
+import pytest
+from main import StudentsInMLOps
 
 # Define test cases for the StudentsInMLOps class
 class TestStudentsInMLOps:
