@@ -20,13 +20,3 @@ class StudentsInMLOps:
 
     def getClassName(self):
         print('StudentsInMLOps')
-
-
-s1 = StudentsInMLOps()
-
-s1.enrollStudents(123)
-s1.dropStudents(23)
-x = s1.getTotalStrength()
-
-print('Number of students enrolled are ' , x)
-s1.getClassName()
